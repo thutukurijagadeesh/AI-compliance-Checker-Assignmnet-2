@@ -1,3 +1,4 @@
+
 # TODO List for AI Compliance Checker
 
 ## Backend Setup
@@ -24,3 +25,13 @@
 - [x] Test NLP analysis accuracy
 - [x] Run full application
 - [x] Verify frontend-backend communication
+
+## ML/LLM Enhancement
+- [x] Install ML/LLM dependencies (scikit-learn, transformers, openai)
+- [x] Prepare datasets (download and preprocess CUAD or similar public datasets for clause/risk labeling)
+- [x] Train ML models (SVM, Random Forest, Neural Networks) on prepared datasets
+- [x] Evaluate model accuracy and reliability for clause extraction and risk identification
+- [x] Integrate GPT-3.5-turbo for advanced clause and risk analysis
+- [x] Update document_processor.py to use trained ML models and GPT predictions
+- [x] Test improved analysis on sample documents
+- [x] Update frontend if needed to display enhanced results

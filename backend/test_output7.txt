@@ -1,0 +1,4 @@
+Testing document type classification...
+Non-contract classification: {'is_contract': False, 'confidence': 0.2, 'reasoning': 'Rule-based classification: contract_score=1, non_contract_score=2'}
+Contract classification: {'is_contract': True, 'confidence': 1.0, 'reasoning': 'Rule-based classification: contract_score=6, non_contract_score=0'}
+Unsupported file type result: {'is_contract': False, 'message': 'Please upload contract documents. This document does not appear to be a legal contract or agreement.', 'key_clauses': [], 'risks': [], 'missing_clauses': [], 'text_length': 131, 'analysis_method': 'Document classification'}

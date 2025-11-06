@@ -1,0 +1,9 @@
+Testing process_document...
+Import successful
+File created
+Models loaded successfully
+GPT not available, using rule-based clause extraction
+Models loaded successfully
+GPT not available, skipping GPT risk identification
+Process completed
+Process result: {'is_contract': True, 'key_clauses': ['This is a data processing agreement.'], 'risks': [{'risk': 'data processing', 'description': 'GDPR violation - processing personal data without lawful basis', 'severity': 'High', 'confidence': np.float64(0.9998409850077082)}, {'risk': 'international data transfer', 'description': 'GDPR risk - data transfers may require adequacy or safeguards', 'severity': 'Medium'}, {'risk': 'data breach notification', 'description': 'GDPR requirement - must notify breaches within 72 hours', 'severity': 'High'}, {'risk': 'data subject rights', 'description': 'GDPR requirement - must respond to data subject requests', 'severity': 'Medium'}, {'risk': 'data retention', 'description': 'GDPR risk - excessive data retention without justification', 'severity': 'Medium'}, {'risk': 'business associate agreement', 'description': 'HIPAA requirement - contracts with service providers', 'severity': 'Medium'}], 'missing_clauses': [{'clause': 'consent clause', 'description': 'GDPR/HIPAA requirement - explicit consent for data processing/use', 'importance': 'Medium'}, {'clause': 'breach notification procedure', 'description': 'GDPR/HIPAA requirement - process for notifying breaches', 'importance': 'High'}, {'clause': 'privacy notice', 'description': 'GDPR/HIPAA requirement - information about data practices', 'importance': 'Medium'}], 'text_length': 36, 'analysis_method': 'ML-enhanced with GPT integration'}

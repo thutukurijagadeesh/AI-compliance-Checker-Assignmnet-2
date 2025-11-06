@@ -1,0 +1,12 @@
+Function executed successfully
+Generated 10 recommendations
+1. Privacy Notice Clause: The controller shall provide data subjects with a privacy notice that includes information about the purposes of processing, legal basis, recipients of personal data, and data subject rights.
+2. Breach Notification Clause: In the event of a data breach, the data controller shall notify all affected data subjects within 72 hours of becoming aware of the breach, in accordance with GDPR Article 33.
+3. Business Associate Agreement: The business associate shall enter into a written agreement with the covered entity that establishes the permitted and required uses and disclosures of protected health information.
+4. Contractual Obligations Clause: The business associate shall comply with the requirements of the Privacy, Security, and Breach Notification Rules with respect to protected health information.
+5. Purpose Limitation Clause: Personal data shall be collected for specified, explicit, and legitimate purposes and not further processed in a manner that is incompatible with those purposes.
+6. Information Provision Clause: Data subjects shall be informed about the identity of the controller, purposes of processing, categories of personal data, and their rights under applicable data protection laws.
+7. Lawful Basis Clause: Personal data shall be processed on a lawful basis, with explicit consent obtained where required by applicable data protection laws.
+8. Data Processing Agreement: The processor shall process personal data only on documented instructions from the controller, including with regard to transfers of personal data to a third country or an international organization.
+9. Breach Response Procedure: Upon discovery of a security breach, the parties agree to immediately implement their respective breach response procedures, including notification to supervisory authorities and affected individuals.
+10. Data Minimization Clause: Personal data shall be adequate, relevant, and limited to what is necessary in relation to the purposes for which they are processed.

@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import axios from 'axios';
 
@@ -8,12 +9,12 @@ const DocumentUpload = ({ onAnalysisComplete, onUploadStart, loading }) => {
   const handleFileSelect = (event) => {
     const file = event.target.files[0];
     if (file) {
-      const allowedTypes = ['application/pdf', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
-      const allowedExtensions = ['.pdf', '.docx'];
+      const allowedTypes = ['application/pdf', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'text/plain'];
+      const allowedExtensions = ['.pdf', '.docx', '.txt'];
       const fileExtension = file.name.toLowerCase().substring(file.name.lastIndexOf('.'));
 
       if (!allowedTypes.includes(file.type) && !allowedExtensions.includes(fileExtension)) {
-        setError('Please select a PDF or DOCX file.');
+        setError('Please select a PDF, DOCX, or TXT file.');
         setSelectedFile(null);
         return;
       }
@@ -50,12 +51,12 @@ const DocumentUpload = ({ onAnalysisComplete, onUploadStart, loading }) => {
   return (
     <div className="text-center">
       <h4 className="mb-4">Upload Contract Document</h4>
-      <p className="text-muted mb-4">Select a PDF or DOCX file to extract key clauses and identify compliance risks</p>
+      <p className="text-muted mb-4">Select a PDF, DOCX, or TXT file to extract key clauses and identify compliance risks</p>
 
       <div className="mb-4">
         <input
           type="file"
-          accept=".pdf,.docx"
+          accept=".pdf,.docx,.txt"
           onChange={handleFileSelect}
           className="form-control form-control-lg"
           disabled={loading}

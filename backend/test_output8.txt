@@ -1,0 +1,1 @@
+Classification result: {'is_contract': True, 'confidence': 0.4, 'reasoning': 'Rule-based classification: contract_score=2, non_contract_score=0'}
